@@ -30,7 +30,7 @@ function AddMovie() {
         console.log(res);
         push("/");
       })
-      .catch((err) => console.log(err.message));
+      .catch((err) => console.log(err.response));
   };
   return (
     <div className="addMovieContainer">

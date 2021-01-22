@@ -38,12 +38,12 @@ function UpdateMovies({ movieList, setMovieList }) {
         push(`/movies/${id}`);
       })
       .catch((err) => {
-        console.log(err.message);
+        console.log(err.response);
       });
   };
   return (
     <div className="addMovieContainer">
-      <form onSubmit={addFilm}>
+      <form onSubmit={updateMovie}>
         <label htmlFor="title">Title</label>
         <input
           id="title"
