@@ -75,3 +75,17 @@ body {
   color: red;
   text-align: center;
 }
+
+.addMovieContainer {
+  display: block;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.addMovieContainer label {
+  display: block;
+  margin: 0 auto;
+}
+.addMovieContainer button {
+  display: block;
+  padding: 1rem;
+}
